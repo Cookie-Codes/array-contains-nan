@@ -6,3 +6,7 @@ test('Testing Array Contains Nan', () => {
     expect(arrayContainsNaN(['a', 'b', NaN, []])).toBeTruthy();
     expect(arrayContainsNaN([false, '', [], {}])).toBeFalsy();
 });
+
+test('Testing Array Assersion', () => {
+    expect(() => arrayContainsNaN('Kill')).toThrowError();
+});

@@ -3,7 +3,7 @@
  * @param  values any[] Array of Values
  * @return        boolean
  */
-export function arrayContainsNaN(values: any[]): boolean {
+export function arrayContainsNaN(values: any): boolean {
     if (!Array.isArray(values)) {
         throw new Error('Array Should Be Provided');
     }
