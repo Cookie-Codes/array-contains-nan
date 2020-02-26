@@ -7,6 +7,8 @@
 Simple Utility to Check weather Array Contains NaN or Not
 
 ```javascript
-arrayContainsNaN(values); // true
+let values = [ture, 'undefined', [], {}];
 arrayContainsNaN(values); // false
+values = [false, NaN];
+arrayContainsNaN(values); // true
 ```
