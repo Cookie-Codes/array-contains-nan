@@ -1,9 +1,7 @@
-import { add } from '../index';
+import { arrayContainsNaN } from '../index';
 
-test('basic', () => {
-    expect(3 + 4).toBe(7);
-});
-
-test('cover', () => {
-    expect(add(3, 4)).toBe(7);
+test('Testing Array Contains Nan', () => {
+    expect(arrayContainsNaN(['a', 'b', true, []])).toBeFalsy();
+    expect(arrayContainsNaN(['a', 'b', undefined, []])).toBeFalsy();
+    expect(arrayContainsNaN(['a', 'b', NaN, []])).toBeTruthy();
 });

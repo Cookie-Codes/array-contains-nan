@@ -1,15 +1,18 @@
 {
-  "name": "yarn-ts-starter",
+  "name": "arrayContainsNaN",
   "version": "1.0.0",
-  "description": "Start For Me",
-  "main": "index.js",
-  "keywords": [
-    "Terminal"
-  ],
+  "description": "JavaScript Array Utility to Check weather array cotnains NaN or Not",
   "main": "build/index.js",
+  "keywords": [
+    "array",
+    "utility",
+    "javascript-array",
+    "javascript-utility",
+    "typescript-supported"
+  ],
   "types": "build/index.d.ts",
   "author": "Akash Chaudhari",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
@@ -40,7 +43,7 @@
     "build": "rimraf ./build && tsc && npm run lint",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "doc" : "rimraf ./doc && typedoc"
+    "doc": "rimraf ./doc && typedoc"
   },
   "dependencies": {},
   "jest": {
@@ -62,5 +65,8 @@
     "LICENSE",
     "Readme.md",
     "build/"
-  ]
+  ],
+  "repository": "https://github.com/al-chaudhari/array-contains-nan",
+  "homepage": "https://github.com/al-chaudhari/array-contains-nan",
+  "bugs": "https://github.com/al-chaudhari/array-contains-nan/issues"
 }
