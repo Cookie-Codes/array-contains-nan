@@ -1,6 +1,6 @@
 {
     "name": "arraycontainsnan",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "JavaScript Array Utility to Check weather array cotnains NaN or Not",
     "main": "build/index.js",
     "keywords": [
