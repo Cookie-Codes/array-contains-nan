@@ -5,6 +5,7 @@
     "lib": ["es6","DOM"],
     "allowJs": true,
     "outDir": "build",
+    "declaration": true.
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
